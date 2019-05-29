@@ -1,0 +1,189 @@
+/*Home Page*/
+#navbar
+{
+font-family: 'Libre Baskerville', serif;
+font-size:18pt;
+display:flex;
+justify-content:space-around;}
+/*{display:flex;
+    justify-content:space-around;
+    width:100%;
+    font-size:16pt;}*/
+li  {align-self:center;
+    list-style-type:none;
+    }
+#about {margin-top:25px;
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    flex-direction:column;
+    align-items: center;}
+
+header
+{margin-top:auto;
+display:flex;
+justify-content:center;
+flex-direction:row;
+align-items:center;
+}
+
+#header-image
+{display:flex;
+margin:auto;
+align-items: center;}
+
+#Homepageh1 {
+font-family: 'Libre Baskerville', serif;}
+
+#about-info {
+font-family: 'Montserrat', sans-serif;
+font-size: 18pt;
+color:#5B007F;
+display:flex;}
+
+#about-info-pt-2 {
+font-family: 'Montserrat', sans-serif;
+font-size: 18pt;
+color:#5B007F;
+display:flex;}
+/*Home Page End*/
+
+/*Media Query*/
+@media only screen and (max-width:700px)
+{
+    body {background-color:#C88AFF;
+    color:white;
+
+    }
+}
+
+/*End of Media Query*/
+
+/*About Page*/
+#bio {
+font-family: 'Montserrat', sans-serif;
+font-size:18pt;
+display:flex;}
+
+#Abouth2 {
+position:relative;
+transition-property:all;
+transition-duration:5s;
+transition-delay:2s;
+font-size:28pt;
+font-family: 'Libre Baskerville', serif;
+font-size:24pt;
+display:flex;
+justify-content:center;}
+
+
+
+/*End of About Page*/
+
+/*Portfolio Page*/
+#Porth1 {
+position:relative;
+transition-property:all;
+transition-duration:5s;
+transition-delay:2s;
+font-size:24pt;
+font-family: 'Libre Baskerville', serif;
+font-size:28pt;
+display:flex;
+justify-content:center;}
+
+#portfoliowriting
+{font-family:'Montserrat', sans-serif;
+font-size: 18pt;
+display: flex;}
+
+#Writing {
+font-family: 'Libre Baskerville', serif;
+font-size: 24pt;
+display:flex;}
+
+#Photography {
+font-family: 'Libre Baskerville', serif;
+font-size: 24pt;
+display:flex;}
+
+#PhotoParagraph
+{font-family:'Montserrat', sans-serif;
+font-size: 18pt;
+display:flex;}
+/*End of Portfolio Page*/
+
+/*Writing Page*/
+#WritingH3 {
+position:relative;
+transition-property:all;
+transition-duration:5s;
+transition-delay:2s;
+font-size:24pt;
+font-family: 'Libre Baskerville', serif;
+font-size:28pt;
+display:flex;
+justify-content:center;}
+
+/*{
+font-family: 'Libre Baskerville', serif;
+font-size: 24pt;
+display:flex;
+justify-content:center;}*/
+
+#writinglist
+{font-family: 'Montserrat', sans-serif;
+font-size: 14pt;
+display:flex;
+flex-direction: column;}
+/*End of Writing Page*/
+
+/*Photography Page*/
+#photopagelayout {display:flex;
+flex-flow:wrap;}
+
+
+
+
+#Photopage1 {
+position:relative;
+transition-property:all;
+transition-duration:5s;
+transition-delay:2s;
+font-size:24pt;
+font-family: 'Libre Baskerville', serif;
+font-size:28pt;
+display:flex;
+justify-content:center;}
+
+
+/*{
+display:flex;
+justify-content:center;}*/
+
+/*End of Photography Page*/
+
+/*Contact Page*/
+#ContactH1 {
+font-family:'Libre Baskerville', serif;
+display:flex;
+justify-content:center;}
+
+
+#Email
+{font-family:'Montserrat', sans-serif;
+text-decoration: none;
+text-decoration-color: black;
+display:flex;
+justify-content:center;}
+
+#Insta
+{font-family:'Montserrat', sans-serif;
+display:flex;
+justify-content:center;}
+
+#Twitter
+{font-family:'Montserrat', sans-serif;
+display:flex;
+justify-content:center;}
+/*End of Contact Page*/
