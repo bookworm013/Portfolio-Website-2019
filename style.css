@@ -35,6 +35,8 @@ align-items: center;}
 #Homepageh1 {
 font-family: 'Libre Baskerville', serif;}
 
+#AbtMe {font-family: 'Libre Baskerville', serif;}
+
 #about-info {
 font-family: 'Montserrat', sans-serif;
 font-size: 18pt;
@@ -51,10 +53,6 @@ display:flex;}
 {
     body {background-color:#C88AFF;
     color:white;
-
-    }
-}
-
 /*End of Media Query*/
 
 /*About Page*/
